@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Search</title>
+    <script defer src="./static/script.js"></script>
+    <link rel="stylesheet" href="./static/style.css" />
+  </head>
+  <body>
+    <h1>Tiingo Stock Search</h1>
+
+    <div class="search-container">
+      <input
+        id="ticker"
+        type="text"
+        placeholder="Enter stock ticker"
+        required
+      />
+      <button onclick="searchStock()">Search</button>
+      <button onclick="clearFields()">Clear</button>
+    </div>
+
+    <div id="message"></div>
+
+    <div class="tabs">
+      <button onclick="showTab('outlook')">Company Outlook</button>
+      <button onclick="showTab('summary')">Stock Summary</button>
+      <button onclick="loadHistory()">Search History</button>
+    </div>
+
+    <div id="outlook" class="tab-content"></div>
+    <div id="summary" class="tab-content" style="display: none"></div>
+    <div id="history" class="tab-content" style="display: none"></div>
+  </body>
+</html>

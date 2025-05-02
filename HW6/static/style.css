@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #005b96;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 1rem;
+  width: 200px;
+  margin-right: 10px;
+}
+
+#message {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 1rem;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: #005b96;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #003f6b;
+}
+
+#message {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #d9534f;
+}
+
+.tabs {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  max-width: 1050px;
+  margin: auto;
+}
+
+.tabs button {
+  background-color: #e7e7e7;
+  color: #333;
+  border: none;
+  padding: 10px 15px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  background-color: #555; /* Darker */
+  color: #fff; /* White text */
+}
+
+.tabs button:hover {
+  background-color: #d0d0d0;
+}
+
+.tab-content {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  background-color: white;
+  margin-bottom: 2rem;
+  max-width: 1050px;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}

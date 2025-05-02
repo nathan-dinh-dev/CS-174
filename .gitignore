@@ -1,1 +1,8 @@
 my-dell-laptop.pem
+venv
+.env
+__pycache__/
+
+*/.venv
+*/__pycache__
+*/venv
